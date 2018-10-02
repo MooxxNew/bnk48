@@ -36,10 +36,6 @@ type signupName struct{
 	Email string
 }
 
-// type users struct {
-// 	Users []userDetail
-// }
-
 type userDetail struct {
 	UserID int `json:"userId"`
 	ID int `json:"id"`
